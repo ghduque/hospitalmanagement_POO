@@ -1,6 +1,5 @@
 # Sistema de Gerenciamento Hospitalar | Hospital Management System
 
-## Português
 
 ### Descrição do Projeto
 
@@ -57,7 +56,6 @@ Professor Orientador: Felipe Lopes de Melo Faria
 
 ---
 
-## English
 
 ### Project Description
 
