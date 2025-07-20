@@ -1,0 +1,37 @@
+<AnchorPane xmlns:fx="http://javafx.com/fxml"
+	fx:controller="controller.NurseController" prefWidth="500"
+	prefHeight="450" style="-fx-background-color: #e0f0ff;">
+	<VBox spacing="10" alignment="TOP_CENTER"
+		AnchorPane.topAnchor="10" AnchorPane.leftAnchor="10"
+		AnchorPane.rightAnchor="10">
+		<Label text="Nurse Management"
+			style="-fx-font-size: 18px; -fx-font-weight: bold;" />
+
+		<HBox spacing="10" alignment="CENTER">
+			<Label text="Name:" />
+			<TextField fx:id="nameField" prefWidth="200" />
+		</HBox>
+
+		<HBox spacing="10" alignment="CENTER">
+			<Label text="Phone:" />
+			<TextField fx:id="phoneField" prefWidth="200" />
+		</HBox>
+
+		<HBox spacing="10" alignment="CENTER">
+			<Label text="Credential:" />
+			<TextField fx:id="credentialField" prefWidth="200" />
+		</HBox>
+
+		<HBox spacing="10" alignment="CENTER">
+			<Button fx:id="addButton" text="Add Nurse"
+				onAction="#handleAddNurse" />
+			<Button fx:id="updateButton" text="Update Nurse"
+				onAction="#handleUpdateNurse" />
+			<Button fx:id="removeButton" text="Remove Nurse"
+				onAction="#handleRemoveNurse" />
+		</HBox>
+
+		<Label text="Registered Nurses:" style="-fx-font-weight: bold;" />
+		<ListView fx:id="nurseList" prefHeight="150" />
+	</VBox>
+</AnchorPane>

@@ -1,0 +1,13 @@
+<BorderPane xmlns:fx="http://javafx.com/fxml"
+	fx:controller="controller.MainController" prefWidth="800"
+	prefHeight="600" style="-fx-background-color: #e0f0ff;">
+	<center>
+		<TabPane fx:id="mainTabPane">
+			<Tab text="Doctors" />
+			<Tab text="Nurses" />
+			<Tab text="Patients" />
+			<Tab text="Receptionists" />
+			<Tab text="Cleaning Staff" />
+		</TabPane>
+	</center>
+</BorderPane>
